@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,43 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Chef's corner custom colors
+				sage: {
+					50: '#f1f8f2',
+					100: '#dceede',
+					200: '#bcdec1',
+					300: '#92c89a',
+					400: '#6bac72',
+					500: '#4d8f53',
+					600: '#3a7240',
+					700: '#305c35',
+					800: '#29492c',
+					900: '#243d27',
+				},
+				terracotta: {
+					50: '#fbf5f2',
+					100: '#f5e8e0',
+					200: '#ead0c2',
+					300: '#deb199',
+					400: '#ce8768',
+					500: '#c46d49',
+					600: '#b85a3c',
+					700: '#994632',
+					800: '#7e392f',
+					900: '#673028',
+				},
+				crust: {
+					50: '#faf8f1',
+					100: '#f2eddd',
+					200: '#e6dbbf',
+					300: '#d5c297',
+					400: '#c4a570',
+					500: '#b79055',
+					600: '#a77849',
+					700: '#8c613c',
+					800: '#734f35',
+					900: '#60422f',
 				}
 			},
 			borderRadius: {
